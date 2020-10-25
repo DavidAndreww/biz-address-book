@@ -1,0 +1,19 @@
+{
+  "name": "small-biz",
+  "version": "1.0.0",
+  "description": "Favorite business address book w/ google maps api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidAndreww/biz-address-book.git"
+  },
+  "author": "David Bille",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DavidAndreww/biz-address-book/issues"
+  },
+  "homepage": "https://github.com/DavidAndreww/biz-address-book#readme"
+}
