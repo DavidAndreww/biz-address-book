@@ -9,15 +9,15 @@ const rules = [
     options: {
       presets: ['@babel/preset-env', '@babel/preset-react']
     }
+  },
+  {
+    test: /\.css$/,
+    exclude: /node_modules/,
+    use: [
+      { loader: 'css-loader' },
+      { loader: 'style-loader' }
+    ]
   }
-  // {
-  //   test: /\.css$/,
-  //   exclude: /node_modules/,
-  //   use: [
-  //     { loader: 'css-loader' },
-  //     { loader: 'style-loader' }
-  //   ]
-  // }
 ]
 
 module.exports = {
