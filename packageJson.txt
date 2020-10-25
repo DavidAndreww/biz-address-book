@@ -1,0 +1,15 @@
+Webpack - JavaScript bundler.Takes module files & dependencies and generates static assets from them, compiling them into one place. Allows us to run JavaScript in the browser without need for a server.
+
+"webpack": "^5.2.0" === Bundles assets
+"webpack-cli": "^4.1.0" === Use webpack cli
+"webpack-dev-server": "^3.11.0" === Allows for user of dev server (npm start)
+
+Babel - Transcompiler that converts ES6 JavaScript to older version to allow compatibility on all browsers
+
+"@babel/core": "^7.12.3" === 
+"@babel/preset-env": "^7.12.1" === Conmpiles Modern Javascript to 2015-2017 standards 
+"@babel/preset-react": "^7.12.1" === 
+"babel-loader": "^8.1.0" === Handles importation of assets (webpack?)
+"css-loader": "^5.0.0"
+"html-webpack-plugin": "^4.5.0"
+"style-loader": "^2.0.0"
