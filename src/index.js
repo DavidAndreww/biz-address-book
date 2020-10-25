@@ -5,7 +5,10 @@ const root = document.querySelector('#root')
 
 const App = () => {
   return (
-    <h1>React from scratch!</h1>
+    <div>
+      <h1>Small-Biz App!</h1>
+      <p>Track <b>ALL</b> of your favorite business contacts in one place.</p>
+    </div>
   )
 }
 
